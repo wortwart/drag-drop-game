@@ -1,0 +1,35 @@
+h2 {
+ margin: 0.2ex 0 0.2ex 0;
+}
+ul {
+ list-style-type: none;
+ padding-left: 0;
+ margin: 0;
+}
+#dragdropspiel {
+ width: 22em;
+ border: 1px dotted #aaa;
+ padding: 1em;
+}
+#laender, #staedte {
+ padding: 0.3em;
+ width: 45%;
+ background: white;
+}
+#laender {
+border: 1px dotted green;
+ float: left;
+}
+#staedte {
+ border: 1px dotted blue;
+ float: right;
+}
+#punktestand {
+ clear: both;
+}
+.draggable {
+ cursor: pointer;
+}
+.hervorheben {
+ background-color: #88f;
+}
